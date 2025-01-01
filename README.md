@@ -1,4 +1,4 @@
-# ongoing project...
+### ongoing project...
 # Swag Labs webshop-Selenium-Python
 ### [System Under Test (SUT)](https://www.saucedemo.com/) :
 <img src="img.png" alt="img.png" width="700"/>
@@ -39,14 +39,18 @@ git clone git@github.com:arvamartin/webshop-selenium-python.git
 pip install selenium
 pip install behave
 ``` 
+### OR
 
-3. Run all tests
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
 ```bash
 behave     
 ```
 
-selenium
-behave
+
 
 
 
