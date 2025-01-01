@@ -6,4 +6,5 @@ def before_scenario(context,driver):
 
 
 def after_scenario(context,driver):
-    Browser.quit_driver()
+    if context.driver:
+        Browser.quit_driver()

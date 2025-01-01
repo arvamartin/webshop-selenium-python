@@ -24,6 +24,5 @@ class Browser:
 
     @staticmethod
     def quit_driver():
-        if Browser.driver:
             Browser.driver.quit()
             Browser.driver = None
